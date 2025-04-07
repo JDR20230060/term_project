@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>KMH Contact Us</title>
+    <link rel="icon" type="icon" href="/Project Favicons/favicon.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>King's Men Home Security Services</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Product & Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="cta-button"><a href="quote.html">Join Now!</a></li>
+            </ul>
+            <box-icon name='menu' size="lg" id="menu"></box-icon>
+        </nav>
+        <div class="header-content">
+            <h1>Lost & Need Help?
+                Wish To Give Feedback?
+                <br>
+                Below you can find our offices or send us a message.
+            </h1>
+            <p>We accept all criticism...<em>sharpens blades</em>.</p>
+        </div>
+        </header>
+    
+</body>
+<main>
+    <section class="contact">
+        <div class="contact-content" >
+            <h2>
+                Contact Us
+            </h2>
+        </div>
+        <div class="container">
+            <div class="row emailInfo">
+                <div class="box">
+                    <div class="text">
+                        <box-icon type='solid' name='envelope'></box-icon>
+                        <h3>Our Email</h3>
+                        <p>kmhsecurityservices@example.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row contactInfo">
+                <div class="col box">
+                    <div class="text">
+                        <h3>Store Location</h3>
+                        <p><box-icon type='solid' name='map'></box-icon>#67 Henry St,
+                            Port-of-Spain,
+                            Trinidad,
+                            Trinidad and Tobago,
+                            West-Indies
+                            <br>
+                            <box-icon name='phone-call' type='solid' ></box-icon>+1-868-xxx-1234
+                        </p>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="text">
+                        <h3>Store Location</h3>
+                        <p><box-icon type='solid' name='map'></box-icon>#49 Carrington St,
+                            Scarborough,
+                            Tobago,
+                            Trinidad and Tobago,
+                            West-Indies
+                            <br>
+                            <box-icon name='phone-call' type='solid' ></box-icon>+1-868-xxx-5748
+                        </p>
+                    </div>
+                </div>
+                <div class="col box">
+                    <div class="text">
+                        <h3>Store Location</h3>
+                        <p><box-icon type='solid' name='map'></box-icon>#23 Palmetto St,
+                            Bridgetown,
+                            Barbados,
+                            West-Indies
+                            <br>
+                            <box-icon name='phone-call' type='solid' ></box-icon>+1-246-xxx-0000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feedback">
+        <div class="form-grid">
+            <form id="contact-form" action="/action_page.php" class="was-validated">
+                <div class="mb-3 mt-3">
+                    <label for="fname" class="form-label">First Name:</label>
+                    <input type="text" class="form-control" id="fname" placeholder="Enter First name" name="fname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="lname" class="form-label">Last Name:</label>
+                    <input type="text" class="form-control" id="lname" placeholder="Enter Last Name" name="lname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="text-area">
+                    <label for="response" class="text-area-label">Feedback?</label>
+                    <textarea id="response" placeholder="Tell us your thoughts." name="response" required
+                    maxlength="500" form="contact-form" cols="50" rows="8">
+                    </textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer></footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="extras.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</html>
